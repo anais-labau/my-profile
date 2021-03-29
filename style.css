@@ -1,0 +1,93 @@
+body{
+	background-color: #F9F3F3;
+    color: #40332a;
+    font-family: 'Lexend', sans-serif;
+}
+h1{
+	font-size: 40px;
+	font-weight: 900;
+}
+a{
+	text-decoration: none;
+	color: #810034;
+	transition: color 0,3s ease;
+}
+a:hover {
+	color: white;
+	background-color: black;
+}
+h1,h2,h3,h4{
+	color: #763857
+}
+h1,h2,h3,h4{
+	font-family: 'Satisfy', cursive;
+}
+h1,h2,h3,h4{
+	font-size: 30px;
+}
+
+@media (max-width: 800px){
+   .container {
+	width: 600px;
+  }
+ } 
+ @media (max-width: 500px){
+   .container {
+	width: 400px;
+  }
+ } 
+
+.container {
+	width: 700px;
+    margin: 40px auto;
+}
+.card-white {
+	background: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #810034;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230;230;230);
+}
+.list-inline i:hover {
+	color: black;
+	background-color: white;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+.sport {
+	color: #810034;
+	background-color:#F9F3F3
+}
+.sport:hover {
+	color: black;
+	background: white;
+}
+
+
+
+
+
